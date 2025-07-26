@@ -3,13 +3,13 @@ import { textureLoader } from "../utils";
 
 // textures
 export const graveColorMap = textureLoader.load(
-  "/grave/plastered_stone_wall_1k/plastered_stone_wall_diff_1k.webp"
+  "grave/plastered_stone_wall_1k/plastered_stone_wall_diff_1k.webp"
 );
 export const graveArmMap = textureLoader.load(
-  "/grave/plastered_stone_wall_1k/plastered_stone_wall_arm_1k.webp"
+  "grave/plastered_stone_wall_1k/plastered_stone_wall_arm_1k.webp"
 );
 export const graveNormalMap = textureLoader.load(
-  "/grave/plastered_stone_wall_1k/plastered_stone_wall_nor_gl_1k.webp"
+  "grave/plastered_stone_wall_1k/plastered_stone_wall_nor_gl_1k.webp"
 );
 
 // textures config

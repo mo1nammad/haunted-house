@@ -2,13 +2,13 @@ import * as THREE from "three";
 import { textureLoader } from "../../utils";
 
 const bushColorMap = textureLoader.load(
-  "/bush/leaves_forest_ground_1k/leaves_forest_ground_diff_1k.webp"
+  "bush/leaves_forest_ground_1k/leaves_forest_ground_diff_1k.webp"
 );
 const bushArmMap = textureLoader.load(
-  "/bush/leaves_forest_ground_1k/leaves_forest_ground_arm_1k.webp"
+  "bush/leaves_forest_ground_1k/leaves_forest_ground_arm_1k.webp"
 );
 const bushNormalMap = textureLoader.load(
-  "/bush/leaves_forest_ground_1k/leaves_forest_ground_nor_gl_1k.webp"
+  "bush/leaves_forest_ground_1k/leaves_forest_ground_nor_gl_1k.webp"
 );
 
 // texture configs

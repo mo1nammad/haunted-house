@@ -2,13 +2,13 @@ import * as THREE from "three";
 import { textureLoader } from "../../utils";
 
 const roofColorMap = textureLoader.load(
-  "/roof/roof_slates_02_1k/roof_slates_02_diff_1k.webp"
+  "roof/roof_slates_02_1k/roof_slates_02_diff_1k.webp"
 );
 const roofArmMap = textureLoader.load(
-  "/roof/roof_slates_02_1k/roof_slates_02_arm_1k.webp"
+  "roof/roof_slates_02_1k/roof_slates_02_arm_1k.webp"
 );
 const roofNormalMap = textureLoader.load(
-  "/roof/roof_slates_02_1k/roof_slates_02_nor_gl_1k.webp"
+  "roof/roof_slates_02_1k/roof_slates_02_nor_gl_1k.webp"
 );
 
 // texture configs

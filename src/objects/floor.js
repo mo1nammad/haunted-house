@@ -1,18 +1,18 @@
 import * as THREE from "three";
 import { textureLoader } from "../utils";
 
-export const floorAlphaMap = textureLoader.load("/floor/alpha.webp");
+export const floorAlphaMap = textureLoader.load("floor/alpha.webp");
 export const floorColorMap = textureLoader.load(
-  "/floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_diff_1k.webp"
+  "floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_diff_1k.webp"
 );
 export const floorArmMap = textureLoader.load(
-  "/floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_arm_1k.webp"
+  "floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_arm_1k.webp"
 );
 export const floorNormalMap = textureLoader.load(
-  "/floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_nor_gl_1k.webp"
+  "floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_nor_gl_1k.webp"
 );
 export const floorDisplacementMap = textureLoader.load(
-  "/floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_disp_1k.webp"
+  "floor/coast_sand_rocks_02_1k/coast_sand_rocks_02_disp_1k.webp"
 );
 
 // configs

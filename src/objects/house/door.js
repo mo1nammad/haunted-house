@@ -1,13 +1,13 @@
 import * as THREE from "three";
 import { textureLoader } from "../../utils";
 
-const doorColorTexture = textureLoader.load("/door/color.webp");
-const doorAlphaTexture = textureLoader.load("/door/alpha.webp");
-const doorAmbientTexture = textureLoader.load("/door/ambientOcclusion.webp");
-const doorHeightTexture = textureLoader.load("/door/height.webp");
-const doorMetalnessTexture = textureLoader.load("/door/metalness.webp");
-const doorNormalTexture = textureLoader.load("/door/normal.webp");
-const doorRoughnessTexture = textureLoader.load("/door/roughness.webp");
+const doorColorTexture = textureLoader.load("door/color.webp");
+const doorAlphaTexture = textureLoader.load("door/alpha.webp");
+const doorAmbientTexture = textureLoader.load("door/ambientOcclusion.webp");
+const doorHeightTexture = textureLoader.load("door/height.webp");
+const doorMetalnessTexture = textureLoader.load("door/metalness.webp");
+const doorNormalTexture = textureLoader.load("door/normal.webp");
+const doorRoughnessTexture = textureLoader.load("door/roughness.webp");
 
 // texture configs
 
