@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.threejs-loader {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  z-index: 1002;
+}
+
+.threejs-loader div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
